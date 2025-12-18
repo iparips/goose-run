@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker volumes and mounted data
+workspace/
+goose-config/
+
+# IDE and editor files
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python (if any helper scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Node modules (if any tooling is added)
+node_modules/
+
+# Test outputs
+test-reports/
+coverage/
+
+# Build artifacts
+dist/
+build/
+
+# User-specific files
+*.bak
+
+# Goose-specific (only in workspace, not in this repo)
+.goose/
+.goosehints
+CLAUDE.md
